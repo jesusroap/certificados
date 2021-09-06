@@ -1,6 +1,6 @@
 <?php
 $type='TrueType';
-$name='SnellRoundhand-BoldScript';
+$name='srfont';
 $desc=array('Ascent'=>937,'Descent'=>-324,'CapHeight'=>722,'Flags'=>96,'FontBBox'=>'[-619 -324 1338 937]','ItalicAngle'=>-40,'StemV'=>120,'MissingWidth'=>268);
 $up=-125;
 $ut=50;
@@ -34,6 +34,6 @@ $cw=array(
 250=>481,251=>481,252=>481,253=>481,254=>481,255=>481);
 $enc='cp1252';
 $diff='';
-$file='SnellRoundhand.z';
+$file='srfont.z';
 $originalsize=38612;
 // --- EOF ---

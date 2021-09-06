@@ -15,7 +15,7 @@ try {
     $content = ob_get_clean();
 
     $html2pdf = new Html2Pdf('L', 'LETTER', 'es');
-    $html2pdf -> addFont('SnellRoundhand');
+    $html2pdf -> addFont('srfont', '', 'srfont.php');
     $permissions=array('modify','copy');
     $html2pdf -> pdf -> SetProtection($permissions);
     $html2pdf -> writeHTML($css.$content);
